@@ -98,3 +98,11 @@ header {
 	grid-column: 3 / 4;
 	grid-row: 3 / 4;
 }
+
+img[class$="icon"] {
+	width: 4rem;
+}
+
+.dashboard img {
+	width: 10rem;
+}
