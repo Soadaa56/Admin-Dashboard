@@ -151,8 +151,8 @@ header {
 	max-height: 5rem;
 	color: white;
 	font-size: 1.6rem;
-	padding: 1.6rem 6rem;
-	aspect-ratio: 1 /1;
+	padding: 1.6rem 3rem;
+	text-align: center;
 }
 
 #main-content {
