@@ -13,26 +13,26 @@
 <body>
   <header>
       <div id="top">
-          <div>
-            <img src="./img/search.svg" alt="Magnifying glass" class="search-icon">
-            <input type="text" name="search-bar" id="search-bar" placeholder="Search...">
-          </div>
+        <div class="search-bar">
+          <img src="./img/search.svg" alt="Magnifying glass" class="search-icon">
+          <input type="text" name="search-bar" id="search-bar" placeholder="Search...">
+        </div>
         <div><img src="./img/notification-bell.svg" alt="Notifacation bell" class="notification-icon"></div>
-        <div>
+        <div class="top-right-profile">
           <img src="./img/monica-garniga-XClNDg9Z9Ag-unsplash.jpg" alt="Profile picture" class="profile-picture">
-          <span>Bob Smith</span>  
+          <div>Bob Smith</div>  
         </div>
       </div>
       <div id="nav">
         <div><img src="./img/monica-garniga-XClNDg9Z9Ag-unsplash.jpg" alt="Profile picture" class="large-picture profile-picture"></div>
         <div class="admin-greeting">
           <p>Hi there,</p>
-          <p>Bob Smith (@Bob)</p>
+          <p class="large-font">Bob Smith (@Bob)</p>
         </div>
         <div class="admin-btns">
-          <btn class="nav-btns">New</btn>
-          <btn class="nav-btns">Upload</btn>
-          <btn class="nav-btns">Share</btn>
+          <button class="nav-btns">New</button>
+          <button class="nav-btns">Upload</button>
+          <button class="nav-btns">Share</button>
         </div>
       </div>
   </header>
@@ -84,42 +84,45 @@
   </div>
   <div id="main-content">
     <p class="main-content-title">Your Projects</p>
-    <div class="card">
-      <p>Super Cool Project</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident, sed consequatur.</p>
-      <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
-      <img src="" alt="" class="expand-icon">
-      <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
-    <div class="card">
-      <p>Less Cool Project</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur. Lorem ipsum dolor sit amet.</p>
-      <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
-      <img src="" alt="" class="expand-icon">
-      <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
-    <div class="card">
-      <p>Impossible App</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur.</p>
-      <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
-      <img src="" alt="" class="expand-icon">
-      <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
-    <div class="card">
-      <p>Easy Peasy App</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, impedit?</p>
-      <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
-      <img src="" alt="" class="expand-icon">
-      <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
-    <div class="card">
-      <p>Ad Blocker</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur.</p>
-      <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
-      <img src="" alt="" class="expand-icon">
-      <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
-    <div class="card">
-      <p>Money Maker</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non officiis nobis odit accusamus?</p>
-      <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
-      <img src="" alt="" class="expand-icon">
-      <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
+    <div class="main-content-cards">
+      <div class="card">
+        <p>Super Cool Project</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident, sed consequatur.</p>
+        <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
+        <img src="" alt="" class="expand-icon">
+        <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
+      <div class="card">
+        <p>Less Cool Project</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur. Lorem ipsum dolor sit amet.</p>
+        <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
+        <img src="" alt="" class="expand-icon">
+        <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
+      <div class="card">
+        <p>Impossible App</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur.</p>
+        <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
+        <img src="" alt="" class="expand-icon">
+        <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
+      <div class="card">
+        <p>Easy Peasy App</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, impedit?</p>
+        <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
+        <img src="" alt="" class="expand-icon">
+        <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
+      <div class="card">
+        <p>Ad Blocker</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur.</p>
+        <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
+        <img src="" alt="" class="expand-icon">
+        <img src="./img/share.svg" alt="share this project icon" class="share-icon"></div>
+      <div class="card">
+        <p>Money Maker</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis, possimus modi enim quisquam id perferendis nulla autem quod magni rerum suscipit quam provident excepturi magnam velit ab, sed consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non officiis nobis odit accusamus?</p>
+        <img src="./img/favorite-plus.svg" alt="favorite this project icon" class="favorite-icon">
+        <img src="" alt="" class="expand-icon">
+        <img src="./img/share.svg" alt="share this project icon" class="share-icon">
+      </div>
+    </div>
   </div>
   <div id="announcements">
     <div class="announcements-title">Announcements</div>
